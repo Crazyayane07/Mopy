@@ -2180,6 +2180,11 @@ PrefabInstance:
       propertyPath: dialogueUI
       value: 
       objectReference: {fileID: 258418006}
+    - target: {fileID: 2353006668960135687, guid: dbc6dd2fa8738ee40958310dfa70f428,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 5257987761715445042}
     - target: {fileID: 8059059045705849210, guid: dbc6dd2fa8738ee40958310dfa70f428,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2738,6 +2743,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07bb252e57019864dbbac75e56471e79, type: 3}
+--- !u!114 &5257987761715445042 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5257987760525544789, guid: 07bb252e57019864dbbac75e56471e79,
+    type: 3}
+  m_PrefabInstance: {fileID: 5257987761715445041}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aec3f83e4ea52784c8d0f0f3f0066e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &8059059045705849210 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8059059045705849210, guid: dbc6dd2fa8738ee40958310dfa70f428,

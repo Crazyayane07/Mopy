@@ -293,6 +293,7 @@ MonoBehaviour:
   intense: {fileID: 8300000, guid: a22efabd3f16f0546bfef974563a151c, type: 3}
   shock1: {fileID: 8300000, guid: 243d07077572da141a8a6c1c985504a0, type: 3}
   shock2: {fileID: 8300000, guid: 94b554feef69942408d6bf06d2a3ec49, type: 3}
+  fanfare: {fileID: 8300000, guid: d0a6d929a7aa7394da7b22d9deb63d5c, type: 3}
 --- !u!1 &141324408
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,6 +13,8 @@ namespace MOP.View
         public AudioClip shock1;
         public AudioClip shock2;
 
+        public AudioClip fanfare;
+
         public void GoIntense()
         {
             audioSource.clip = intense;
@@ -29,6 +31,12 @@ namespace MOP.View
         public void ShockSound(string text)
         {
             audioSource.PlayOneShot(shock1, 15f);
+        }
+
+        [YarnCommand("fanfare")]
+        public void Fanfare(string text)
+        {
+            audioSource.PlayOneShot(fanfare, 5f);
         }
 
         public void ShockSound()

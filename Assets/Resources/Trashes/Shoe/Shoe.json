@@ -2,10 +2,20 @@
 	{
 		"title": "Shoe",
 		"tags": "",
-		"body": "Shoe",
+		"body": "Omg hai ^___^ \nI’m Japonka-chan and I absolutely luuuv @_____@ meeting new people <3\n<<switch DialoguePopup 1>>\nand my fav is YOU!!!\nSupa kawaii desu!!!!!!!!\n[[Excuse me nani de fak|Shoe1]]",
 		"position": {
-			"x": 378,
-			"y": 399
+			"x": 422,
+			"y": 294
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Shoe1",
+		"tags": "",
+		"body": "<<fanfare SoundView 1>>\n<<switch DialoguePopup 1>>\n<<add DialoguePopup Shoe>>\nJAPONKA JOINED YOUR PARTY~\n<<close DialoguePopup 1>>",
+		"position": {
+			"x": 423,
+			"y": 583
 		},
 		"colorID": 0
 	}

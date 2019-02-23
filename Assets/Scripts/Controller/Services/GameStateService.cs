@@ -5,8 +5,6 @@ namespace MOP.Controller.Services
 {
     public interface IGameStateService
     {
-        Action onAdd { get; set; }
-
         bool HaveBag();
         bool HaveTrash(string trash);
         void AddTrash(string trash);
@@ -14,8 +12,6 @@ namespace MOP.Controller.Services
 
     public class GameStateService : IGameStateService
     {
-        public Action onAdd { get; set; }
-
         private Dictionary<string, bool> trashes;
 
         public GameStateService()
@@ -33,7 +29,6 @@ namespace MOP.Controller.Services
                
         public void AddTrash(string trash)
         {
-            onAdd?.Invoke();
             trashes[trash] = true;
         }
 

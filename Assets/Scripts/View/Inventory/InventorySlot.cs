@@ -32,7 +32,7 @@ namespace MOP.View
 
         private void SetUpSubscribe()
         {
-            GameStateService.onAdd += SetUpImageAlpha;
+           // GameStateService.onAdd += SetUpImageAlpha;
         }
     }
 }

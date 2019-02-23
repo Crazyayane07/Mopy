@@ -16,6 +16,8 @@ namespace MOP.View.Popup
         public Button close;
         public GameObject textPanel;
 
+        public InventoryView inventory;
+
         private Trash trash;
 
         public void SetUp(Trash trash)
@@ -40,6 +42,7 @@ namespace MOP.View.Popup
         public void Close()
         {
             SetActive(false);
+            inventory.SetUp();
         }
 
         [YarnCommand("close")]
