@@ -23,7 +23,7 @@ namespace MOP.View.Popup
             SetUpImage();
 
             SetActive(true);
-            StartDialogue();        
+            StartDialogue();            
         }
 
         [YarnCommand("close")]

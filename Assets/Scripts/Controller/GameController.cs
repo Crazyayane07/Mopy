@@ -7,7 +7,7 @@ namespace MOP.Controller
         public static GameController Controler { get; set; }
 
         public GameServices Services;
-
+        
         private void Awake()
         {
             if (Controler != null)
