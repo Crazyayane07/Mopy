@@ -42,7 +42,7 @@
 	{
 		"title": "Bag1111",
 		"tags": "",
-		"body": "But first we need to deal with the stairs.\nWe can try fly!\n<<add DialoguePopup Bag>>\nGrap onto me little console!\n<<close DialoguePopup 1>>",
+		"body": "But first we need to deal with the stairs.\nWe can try fly!\n<<add DialoguePopup Bag>>\nGrap onto me little console!\n<<switch DialoguePopup 2>>\n<<close DialoguePopup 1>>",
 		"position": {
 			"x": -581,
 			"y": 877
@@ -72,7 +72,7 @@
 	{
 		"title": "Bag112b",
 		"tags": "",
-		"body": "<<switch DialoguePopup 1>>\n<<add DialoguePopup Bag>>\nSeems I have got nothing to lose!\n<<close DialoguePopup 1>>",
+		"body": "<<switch DialoguePopup 1>>\n<<add DialoguePopup Bag>>\nSeems I have got nothing to lose!\n<<switch DialoguePopup 2>>\n<<close DialoguePopup 1>>",
 		"position": {
 			"x": 451,
 			"y": 1058
@@ -92,7 +92,7 @@
 	{
 		"title": "Bag21",
 		"tags": "",
-		"body": "<<switch DialoguePopup 0>>\n<<add DialoguePopup Bag>>\nT-Then I will go with you!\n<<close DialoguePopup 1>>",
+		"body": "<<switch DialoguePopup 0>>\n<<add DialoguePopup Bag>>\nT-Then I will go with you!\n<<switch DialoguePopup 2>>\n<<close DialoguePopup 1>>",
 		"position": {
 			"x": 906,
 			"y": 641
@@ -102,7 +102,7 @@
 	{
 		"title": "Bags",
 		"tags": "",
-		"body": "<<switch DialoguePopup 0>>\nWell, it's better to run away than risk and stay here.\n<<add DialoguePopup Bag>>\nI will help you fly downstairs!\n<<close DialoguePopup 1>>",
+		"body": "<<switch DialoguePopup 0>>\nWell, it's better to run away than risk and stay here.\n<<add DialoguePopup Bag>>\nI will help you fly downstairs!\n<<switch DialoguePopup 2>>\n<<close DialoguePopup 1>>",
 		"position": {
 			"x": 1201,
 			"y": 319
