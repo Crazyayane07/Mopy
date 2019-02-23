@@ -15,6 +15,7 @@ namespace MOP.View.Popup
         public Image characterImage;
         public Button close;
         public GameObject textPanel;
+        public MinigameController controller;
 
         public InventoryView inventory;
 
@@ -43,6 +44,9 @@ namespace MOP.View.Popup
         {
             SetActive(false);
             inventory.SetUp();
+
+            if (trash.nodeId == "Toster")
+                controller.SetUpMinigame();
         }
 
         [YarnCommand("close")]
