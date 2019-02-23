@@ -6,14 +6,19 @@ namespace MOP.View
 {
     public class CharacterController : MonoBehaviour2
     {
-        public float upForce = 5f;
+        private Vector2 setup;
+
+        private float upForce = 400f;
         private Rigidbody2D rgb2d;
 
         private void Start()
         {
+            setup = transform.position;
             rgb2d = GetComponent<Rigidbody2D>();
+
+            MinigameService.OnMinigameOver += Subscribe;
         }
-        // Update is called once per frame
+        
         void Update()
         {
             if(Input.GetKeyDown("space"))
@@ -24,10 +29,21 @@ namespace MOP.View
 
         private void OnCollisionEnter2D(Collision2D collision)
         {
-            if(collision.gameObject.tag.Equals("Death"))
+            if (collision.gameObject.tag.Equals("Death"))
             {
-                Debug.Log("died");
+                MinigameService.MinigameOver();
             }
+            else if (collision.gameObject.tag.Equals("Wall"))
+            {
+                MinigameService.MinigameWon();
+            }
+        }
+
+        private void Subscribe()
+        {
+            Debug.Log(transform.position);
+            Debug.Log(setup);
+            transform.position = setup;
         }
     }
 }

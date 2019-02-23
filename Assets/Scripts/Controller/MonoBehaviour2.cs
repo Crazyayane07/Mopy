@@ -10,6 +10,7 @@ namespace MOP
 
         protected IGameStateService GameStateService { get { return Controler.Services.GameStateService; } }
         protected ISceneService SceneService { get { return Controler.Services.SceneService; } }
+        protected IMinigameService MinigameService { get { return Controler.Services.MinigameService; } }
 
         protected void SetActive(bool active)
         {
