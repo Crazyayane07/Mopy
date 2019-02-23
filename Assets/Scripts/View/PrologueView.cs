@@ -38,7 +38,6 @@ namespace MOP.View
         [YarnCommand("changeImage")]
         public void ChangeImage(string id)
         {
-            Debug.Log(id);
             img.sprite = sprites[int.Parse(id)];
         }
 

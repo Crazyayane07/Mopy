@@ -1,5 +1,6 @@
 ﻿using MOP.Controller;
 using MOP.Controller.Services;
+using MOP.View;
 using UnityEngine;
 
 namespace MOP
@@ -10,6 +11,8 @@ namespace MOP
 
         protected IGameStateService GameStateService { get { return Controler.Services.GameStateService; } }
         protected ISceneService SceneService { get { return Controler.Services.SceneService; } }
+
+        protected SoundView Sound { get { return Controler.sound; } }
 
         protected void SetActive(bool active)
         {

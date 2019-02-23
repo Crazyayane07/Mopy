@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using MOP.View;
+using UnityEngine;
 
 namespace MOP.Controller
 {
@@ -7,6 +8,7 @@ namespace MOP.Controller
         public static GameController Controler { get; set; }
 
         public GameServices Services;
+        public SoundView sound;
         
         private void Awake()
         {

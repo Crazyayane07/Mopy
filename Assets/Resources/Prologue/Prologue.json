@@ -2,11 +2,11 @@
 	{
 		"title": "Prologue",
 		"tags": "",
-		"body": " zjvdcsd vks cvksv ksfvbdf\n dcs vks dv sv sbd glsdvds\n<<changeImage PrologueView 1>>\nvs cavcka iavdc adiuvvad sd\nva dcskd cdaiugc sdv dapvba dvsdohv\nadc adc auvals cacsd v liha\ndac asicbaboa a ciuagvcna\na dcadvcaldbak dvoua\n<<changeScene PrologueView 1>>",
+		"body": "The Great Pacific Garbage Patch is bigger than expected. \nAnd it's constantly expanding. \nThe drifting island of plastic waste is now three times the size of France.\nIf we continue to use synthetic materials, the whole ocean will become covered by a giant plastic cape...\n<<changeImage PrologueView 1>>\n<<sound SoundView 1>>\nOH NO !!!!\nThey will get rid of me!\nI have to get out of here, but I won't manage to do that on my own.\n<<changeScene PrologueView 1>>",
 		"position": {
-			"x": 378,
-			"y": 399
+			"x": 311,
+			"y": 244
 		},
-		"colorID": 0
+		"colorID": 6
 	}
 ]
