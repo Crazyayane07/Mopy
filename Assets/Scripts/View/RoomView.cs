@@ -27,6 +27,7 @@ namespace MOP.View
 
         private void GoToLocation()
         {
+            popup.SetUp(trash);
         }
 
         private void SetUpTrigger()

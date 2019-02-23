@@ -10,11 +10,16 @@ namespace MOP.Controller.Dialogues
     public class DialogueUI : DialogueUIBehaviour
     {
         public TextMeshProUGUI dialogueText;
+
         public float textSpeed = 0.025f;
 
-        public TextMeshProUGUI[] options;
-        private OptionChooser SetSelectedOption;
+        public TextMeshProUGUI[] optionsTexts;
+        public GameObject[] optionsButtons;
 
+        public GameObject dialogueEndStar;
+
+        private OptionChooser SetSelectedOption;
+               
         public override IEnumerator RunCommand(Command command)
         {
             yield break;
@@ -22,6 +27,7 @@ namespace MOP.Controller.Dialogues
 
         public override IEnumerator RunLine(Line line)
         {
+            dialogueText.gameObject.SetActive(true);
             var stringBuilder = new StringBuilder();
 
             foreach (char c in line.text)
@@ -31,6 +37,8 @@ namespace MOP.Controller.Dialogues
                 yield return new WaitForSeconds(textSpeed);
             }
 
+            dialogueEndStar.gameObject.SetActive(true);
+
             while (Input.anyKeyDown == false)
             {
                 yield return null;
@@ -39,8 +47,19 @@ namespace MOP.Controller.Dialogues
 
         public override IEnumerator RunOptions(Options optionsCollection, OptionChooser optionChooser)
         {
-            for (int i = 0; i < options.Length; i++)
-                options[i].text = optionsCollection.options[i];
+            dialogueText.gameObject.SetActive(false);
+            dialogueEndStar.gameObject.SetActive(false);
+
+            int options = optionsCollection.options.Count;
+
+            for (int i = 0; i < options; i++)
+            {
+                optionsTexts[i].text = optionsCollection.options[i];
+                optionsButtons[i].SetActive(true);
+            }
+
+            for (int k = options; k < optionsButtons.Length; k++)
+                optionsButtons[k].SetActive(false);
 
             SetSelectedOption = optionChooser;
 
@@ -48,6 +67,9 @@ namespace MOP.Controller.Dialogues
             {
                 yield return null;
             }
+
+            for (int j = 0; j < optionsButtons.Length; j++)
+                optionsButtons[j].SetActive(false);
         }
 
         public void SetOption(int selectedOption)
