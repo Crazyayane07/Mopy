@@ -2,11 +2,31 @@
 	{
 		"title": "Dryer",
 		"tags": "",
-		"body": "Dryer",
+		"body": "FInally!\nSomething intresting is happening~~!\n[[We are trying to escape this place!|s1]]\n[[Housekeepers wants to throw us away! We need help to get outside!|s2]]",
 		"position": {
-			"x": 378,
-			"y": 399
+			"x": 335,
+			"y": 273
 		},
 		"colorID": 0
+	},
+	{
+		"title": "s1",
+		"tags": "",
+		"body": "<<switch DialoguePopup 1>>\n<<add DialoguePopup Dryer>>\nWell, I don't know why, but I just can not handle to sitting here any longer!\n<<switch DialoguePopup 0>>\nThis is the MOST BOOORING place in house!\n<<close DialoguePopup 1>>",
+		"position": {
+			"x": 49,
+			"y": 515
+		},
+		"colorID": 0
+	},
+	{
+		"title": "s2",
+		"tags": "",
+		"body": "I will help you with great pleasure!\nI CAN NO STAND SITTING HERE ANY LONGER!\n<<switch DialoguePopup 1>>\n<<add DialoguePopup Dryer>>\nIT\nIS\nSO\nBORING !!!\n<<close DialoguePopup 1>>",
+		"position": {
+			"x": 623,
+			"y": 516
+		},
+		"colorID": 6
 	}
 ]

@@ -5,15 +5,16 @@ using Yarn.Unity;
 
 namespace MOP.View
 {
-    public class MinigameController : MonoBehaviour
+    public class MinigameController : MonoBehaviour2
     {
         public GameObject minigame;
         public GameObject canvas;
-                
+
         public void SetUpMinigame()
         {
             minigame.SetActive(true);
             canvas.SetActive(false);
+            Sound.GoIntense();
         }
     }
 }

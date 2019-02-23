@@ -289,8 +289,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.7000122, y: -86.30002}
-  m_SizeDelta: {x: 554.4, y: 63.5}
+  m_AnchoredPosition: {x: -1.7, y: -91.1}
+  m_SizeDelta: {x: 511.3, y: 36.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5876858729462692160
 CanvasRenderer:
@@ -910,7 +910,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7854392200613260523
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1044,7 +1044,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: -10.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6855063572141946851
 CanvasRenderer:
@@ -1102,14 +1102,14 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 56.8
+  m_fontSize: 23
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_textAlignment: 513
+  m_textAlignment: 514
   m_isAlignmentEnumConverted: 1
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1806,6 +1806,8 @@ MonoBehaviour:
   characterImage: {fileID: 5671834822414284915}
   close: {fileID: 4179080553554833689}
   textPanel: {fileID: 8710424936541259711}
+  controller: {fileID: 0}
+  inventory: {fileID: 0}
 --- !u!1 &8135150514882559603
 GameObject:
   m_ObjectHideFlags: 0
@@ -2294,6 +2296,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: EndDialogueStar
       objectReference: {fileID: 0}
+    - target: {fileID: 8148366007082924874, guid: 6857d6e6a254205489101c4d8f918600,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8148366007082924875, guid: 6857d6e6a254205489101c4d8f918600,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2362,12 +2369,12 @@ PrefabInstance:
     - target: {fileID: 8148366007082924875, guid: 6857d6e6a254205489101c4d8f918600,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 37
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 8148366007082924875, guid: 6857d6e6a254205489101c4d8f918600,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 29.1
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8148366007082924875, guid: 6857d6e6a254205489101c4d8f918600,
         type: 3}
