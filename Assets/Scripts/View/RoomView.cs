@@ -13,6 +13,7 @@ namespace MOP.View
         public Trash trash;
         public Button roomButton;
         public DialoguePopup popup;
+        public EventPopup eventPopup;
         public CharacterView character;
 
         public bool needBag;
@@ -63,12 +64,23 @@ namespace MOP.View
 
         private void StopOutline()
         {
+            eventPopup.HidePopup();
            // animator.SetTrigger("StopOutline");
         }
 
         private void StartOutline()
         {
-          //  animator.SetTrigger("StartOutline");
+            if (needBag)
+            {
+                eventPopup.ShowPopup("You need a bag to go to this room");
+                return;
+            }
+            if (GameStateService.HaveTrash(trash.nodeId))
+            {
+                eventPopup.ShowPopup("You have already been here");
+                return;
+            }
+            //  animator.SetTrigger("StartOutline");
         }
     }
 }
