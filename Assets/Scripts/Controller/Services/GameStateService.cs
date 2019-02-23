@@ -34,6 +34,7 @@ namespace MOP.Controller.Services
         public void AddTrash(string trash)
         {
             onAdd?.Invoke();
+            trashes[trash] = true;
         }
 
         public bool HaveBag()

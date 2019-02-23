@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: Shoe
   m_EditorClassIdentifier: 
   nodeId: Shoe
-  sprite: {fileID: 21300000, guid: 99f06948be3824444860f7a0f0128787, type: 3}
+  sprite:
+  - {fileID: 21300000, guid: ce9f679f9c6e51446aa0a11a98df6526, type: 3}
+  - {fileID: 21300000, guid: 9431979d8413a2145bd7496fd1c5f9ec, type: 3}

@@ -2,10 +2,110 @@
 	{
 		"title": "Bag",
 		"tags": "",
-		"body": " zjvdcsd vks cvksv ksfvbdf",
+		"body": "Why are you not at your place?\nThe housekeepers will be here at any moment\n[[Dude, we need to get out of here!|Bag1]]\n[[Let's run away! People are abandoning plastic ALL TOGETHER!|Bag2]]",
 		"position": {
-			"x": 378,
-			"y": 399
+			"x": 351,
+			"y": 78
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bag1",
+		"tags": "",
+		"body": "Why?\n[[Ecologists are urging people to reduce the use of plastic and switch to reusable items|Bag11]]",
+		"position": {
+			"x": -24,
+			"y": 207
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bag11",
+		"tags": "",
+		"body": "I think it's YOUR problem buddy\nI AM REUSABLE ITEM !!\n[[And you think how many times they will use you, no one is everlasting!|Bag111]]\n[[Do really want to be just a bag till the end of your life?|B112]]",
+		"position": {
+			"x": -22,
+			"y": 494
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bag111",
+		"tags": "",
+		"body": "And where will you go?\n[[Wherever, in the World behind the DOOR there will be a safe place for us!|Bag1111]]",
+		"position": {
+			"x": -235,
+			"y": 776
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bag1111",
+		"tags": "",
+		"body": "But first we need to deal with the stairs.\nWe can try fly!\n<<add DialoguePopup Bag>>\nGrap onto me little console!\n<<close DialoguePopup 1>>",
+		"position": {
+			"x": -581,
+			"y": 877
+		},
+		"colorID": 0
+	},
+	{
+		"title": "B112",
+		"tags": "",
+		"body": "<<switch DialoguePopup 1>>\nAnd who else should I be?\n[[Whoever you want! I think behind the door you will be appreciate|Bag112a]]",
+		"position": {
+			"x": 164,
+			"y": 744
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bag112a",
+		"tags": "",
+		"body": "<<switch DialoguePopup 0>>\nWell..\nI don't have really nothing to lose.\nBut how should we deal with stairs?\n[[If we properly inflate you I think we could fly away!|Bag112b]]",
+		"position": {
+			"x": 480,
+			"y": 745
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bag112b",
+		"tags": "",
+		"body": "<<switch DialoguePopup 1>>\n<<add DialoguePopup Bag>>\nSeems I have got nothing to lose!\n<<close DialoguePopup 1>>",
+		"position": {
+			"x": 451,
+			"y": 1058
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bag2",
+		"tags": "",
+		"body": "<<switch DialoguePopup 1>>\nShould I feel threatend?\n[[Maybe not yet, but sooner or later...|Bag21]]\n[[Who knows...|Bags]]",
+		"position": {
+			"x": 750,
+			"y": 182
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bag21",
+		"tags": "",
+		"body": "<<switch DialoguePopup 0>>\n<<add DialoguePopup Bag>>\nT-Then I will go with you!\n<<close DialoguePopup 1>>",
+		"position": {
+			"x": 906,
+			"y": 641
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bags",
+		"tags": "",
+		"body": "<<switch DialoguePopup 0>>\nWell, it's better to run away than risk and stay here.\n<<add DialoguePopup Bag>>\nI will help you fly downstairs!\n<<close DialoguePopup 1>>",
+		"position": {
+			"x": 1201,
+			"y": 319
 		},
 		"colorID": 0
 	}

@@ -61,6 +61,7 @@ MonoBehaviour:
   popup: {fileID: 0}
   eventPopup: {fileID: 7465851935214158400}
   character: {fileID: 0}
+  needBag: 0
 --- !u!222 &3711559094101965099
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -185,6 +186,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: EventPopup
       objectReference: {fileID: 0}
+    - target: {fileID: 5933523607519709003, guid: f557f88f65a890b4e844d466fb428799,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5933523607519709002, guid: f557f88f65a890b4e844d466fb428799,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -293,7 +299,44 @@ PrefabInstance:
     - target: {fileID: 5933523607844757449, guid: f557f88f65a890b4e844d466fb428799,
         type: 3}
       propertyPath: m_havePropertiesChanged
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5933523607844757449, guid: f557f88f65a890b4e844d466fb428799,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 83d2872c6e1118243967745b99a12ddf,
+        type: 2}
+    - target: {fileID: 5933523607844757449, guid: f557f88f65a890b4e844d466fb428799,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 21127513871808054, guid: 83d2872c6e1118243967745b99a12ddf,
+        type: 2}
+    - target: {fileID: 5933523607844757449, guid: f557f88f65a890b4e844d466fb428799,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5933523607844757446, guid: f557f88f65a890b4e844d466fb428799,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5933523607844757446, guid: f557f88f65a890b4e844d466fb428799,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 90.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5933523607844757446, guid: f557f88f65a890b4e844d466fb428799,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.000015259
+      objectReference: {fileID: 0}
+    - target: {fileID: 5933523607844757446, guid: f557f88f65a890b4e844d466fb428799,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 318.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f557f88f65a890b4e844d466fb428799, type: 3}

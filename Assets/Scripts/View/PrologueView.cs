@@ -26,8 +26,10 @@ namespace MOP.View
 
         private void StartGame()
         {
+            SceneService.LoadScene(1);
+            /*
             gameWallpaper.SetActive(false);
-            StartDialogue();
+            StartDialogue();*/
         }
 
         public void StartDialogue()

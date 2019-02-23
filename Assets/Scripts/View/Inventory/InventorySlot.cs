@@ -27,7 +27,7 @@ namespace MOP.View
 
         private void SetUpImage()
         {
-            image.sprite = trash.sprite;
+            image.sprite = trash.sprite[0];
         }
 
         private void SetUpSubscribe()

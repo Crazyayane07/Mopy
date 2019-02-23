@@ -8,7 +8,7 @@ namespace MOP.View
     {
         public GameObject blend;
 
-        private float speed = 300f;
+        private float speed = 600f;
         private Vector2 destination;
         
 

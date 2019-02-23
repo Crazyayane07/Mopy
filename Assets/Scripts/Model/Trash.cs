@@ -6,6 +6,6 @@ namespace MOP.Model
     public class Trash : ScriptableObject
     {
         public string nodeId;
-        public Sprite sprite;
+        public Sprite[] sprite;
     }
 }

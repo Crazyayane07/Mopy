@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Ds
   m_EditorClassIdentifier: 
   nodeId: Ds
-  sprite: {fileID: 21300000, guid: 99f06948be3824444860f7a0f0128787, type: 3}
+  sprite:
+  - {fileID: 21300000, guid: 050a9fb76d4a6954e9e8a6a61bc2dc95, type: 3}

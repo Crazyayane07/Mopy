@@ -31,16 +31,12 @@ namespace MOP.View
 
         private void ClickRoom()
         {
-            if (needBag)
-            {
-                // popup mus have bug
+            if (needBag && !GameStateService.HaveBag())
                 return;
-            }
+            
             if (GameStateService.HaveTrash(trash.nodeId))
-            {
-                // popup have this
                 return;
-            }
+            
             character.Move(transform.position, SetUpPopup);  
         }
 
@@ -70,7 +66,7 @@ namespace MOP.View
 
         private void StartOutline()
         {
-            if (needBag)
+            if (needBag && !GameStateService.HaveBag())
             {
                 eventPopup.ShowPopup("You need a bag to go to this room");
                 return;
