@@ -9,6 +9,7 @@ namespace MOP
         protected GameController Controler { get { return GameController.Controler; } }
 
         protected IGameStateService GameStateService { get { return Controler.Services.GameStateService; } }
+        protected ISceneService SceneService { get { return Controler.Services.SceneService; } }
 
         protected void SetActive(bool active)
         {

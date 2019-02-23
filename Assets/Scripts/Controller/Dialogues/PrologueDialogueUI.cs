@@ -24,7 +24,9 @@ namespace MOP.Controller.Dialogues
 
         public override IEnumerator RunLine(Line line)
         {
+            dialogueEndStar.gameObject.SetActive(false);
             dialogueText.gameObject.SetActive(true);
+
             var stringBuilder = new StringBuilder();
 
             foreach (char c in line.text)
