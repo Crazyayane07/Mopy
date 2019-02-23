@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b87ba3738ad15147b90723c10d1d18b, type: 3}
   m_Name: Trash
   m_EditorClassIdentifier: 
-  nodeId: Sam
+  nodeId: Book
   sprite: {fileID: 21300000, guid: 99f06948be3824444860f7a0f0128787, type: 3}

@@ -4,7 +4,8 @@ namespace MOP.Controller.Services
 {
     public interface IGameStateService
     {
-        bool ConditionsMet(Dictionary<string, bool> conditions);
+        bool HaveBag();
+        bool HaveTrash(string trash);
     }
 
     public class GameStateService : IGameStateService
@@ -15,18 +16,22 @@ namespace MOP.Controller.Services
         {
             trashes = new Dictionary<string, bool>
             {
-                { "a", false },
-                { "b", false },
-                { "c", false }
+                { "Bag", false },
+                { "Book", false },
+                { "Shoe", false },
+                { "Dryer", false },
+                { "Toster", false }
             };
         }
 
-        public bool ConditionsMet(Dictionary<string, bool> conditions)
+        public bool HaveBag()
         {
-            foreach (KeyValuePair<string, bool> entry in trashes)
-                if (entry.Value != conditions[entry.Key])
-                    return false;
-            return true;
+            return trashes["Bag"];
+        }
+
+        public bool HaveTrash(string trash)
+        {
+            return trashes[trash];
         }
     }
 }

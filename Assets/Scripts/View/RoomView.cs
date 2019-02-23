@@ -1,6 +1,5 @@
 ﻿using MOP.Model;
 using MOP.View.Popup;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -15,8 +14,9 @@ namespace MOP.View
         public Button roomButton;
         public DialoguePopup popup;
         public CharacterView character;
-        public Dictionary<string, bool> condition;
 
+        public bool needBag;
+        
         private void Start()
         {
             SetUpTrigger();
@@ -25,16 +25,27 @@ namespace MOP.View
 
         private void SetUpButton()
         {
-            roomButton.onClick.AddListener(GoToLocation);
+            roomButton.onClick.AddListener(ClickRoom);
         }
 
-        private void GoToLocation()
+        private void ClickRoom()
         {
-            if (true)
+            if (needBag)
             {
-                character.Move(transform.position);
+                // popup mus have bug
+                return;
             }
-            //popup.SetUp(trash);
+            if (GameStateService.HaveTrash(trash.nodeId))
+            {
+                // popup have this
+                return;
+            }
+            character.Move(transform.position, SetUpPopup);  
+        }
+
+        private void SetUpPopup()
+        {
+            popup.SetUp(trash);
         }
 
         private void SetUpTrigger()

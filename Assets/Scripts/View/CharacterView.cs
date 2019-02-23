@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 
 namespace MOP.View
@@ -9,15 +10,16 @@ namespace MOP.View
 
         private float speed = 300f;
         private Vector2 destination;
+        
 
-        public void Move(Vector2 posision)
+        public void Move(Vector2 posision, Action onEnd)
         {
             destination = posision;
             blend.SetActive(true);
-            StartCoroutine("MoveCoroutine");
+            StartCoroutine("MoveCoroutine", onEnd);
         }
 
-        public IEnumerator MoveCoroutine()
+        public IEnumerator MoveCoroutine(Action onEnd)
         {
             while (Vector2.Distance(gameObject.transform.position, destination) > 0.1f)
             {
@@ -26,8 +28,10 @@ namespace MOP.View
             }
 
             if (Vector2.Distance(gameObject.transform.position, destination) <= 0.1f)
+            {
                 blend.SetActive(false);
-
+                onEnd?.Invoke();
+            }                
         }
     }
 }
