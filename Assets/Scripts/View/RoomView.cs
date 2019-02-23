@@ -1,5 +1,6 @@
 ﻿using MOP.Model;
 using MOP.View.Popup;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -13,6 +14,8 @@ namespace MOP.View
         public Trash trash;
         public Button roomButton;
         public DialoguePopup popup;
+        public CharacterView character;
+        public Dictionary<string, bool> condition;
 
         private void Start()
         {
@@ -27,7 +30,11 @@ namespace MOP.View
 
         private void GoToLocation()
         {
-            popup.SetUp(trash);
+            if (true)
+            {
+                character.Move(transform.position);
+            }
+            //popup.SetUp(trash);
         }
 
         private void SetUpTrigger()
