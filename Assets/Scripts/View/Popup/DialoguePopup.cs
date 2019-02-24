@@ -45,7 +45,8 @@ namespace MOP.View.Popup
             SetActive(false);
             inventory.SetUp();
 
-            controller.SetUpMinigame();
+            if(trash.nodeId == "Toster")
+                controller.SetUpMinigame();
         }
 
         [YarnCommand("close")]

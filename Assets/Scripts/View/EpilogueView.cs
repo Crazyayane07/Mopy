@@ -10,6 +10,9 @@ namespace MOP.View
 
         private void Start()
         {
+            if (Constans.epilogueId == 1)
+                Sound.PlayDead();
+
             mainEpilogueImage.sprite = epilogues[Constans.epilogueId];
         }
     }

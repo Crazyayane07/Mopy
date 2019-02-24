@@ -21,7 +21,7 @@ namespace MOP.View
         
         void Update()
         {
-            if(Input.GetKeyDown("space"))
+            if(Input.GetKeyDown("space") || Input.GetMouseButtonDown(0))
             {
                 rgb2d.AddForce(new Vector2(0, upForce));
             }

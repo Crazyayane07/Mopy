@@ -1,11 +1,51 @@
 [
 	{
-		"title": "Book",
+		"title": "Start",
 		"tags": "",
-		"body": "Book",
+		"body": "Welcome in our bookcase\nWhat are you doing here?\n[[We're trying to escape from here|1]]\n[[we are looking for those who would like to join us|2]]",
 		"position": {
-			"x": 378,
-			"y": 399
+			"x": 695,
+			"y": 114
+		},
+		"colorID": 0
+	},
+	{
+		"title": "1",
+		"tags": "",
+		"body": "So run you fools\nbut you will not get to anywhere\nIf you try through the kitchen window, the toster will stop you\nIf you want to go out the door, you need a key\n[[Tell me something about the Toster|11]]\n[[Where can we find the key|12]]",
+		"position": {
+			"x": 694,
+			"y": 382
+		},
+		"colorID": 0
+	},
+	{
+		"title": "2",
+		"tags": "",
+		"body": "In the living room you will surely find a flip-flop\r\nShe loves meeting new people\r\nHair Dryer may also be interested\r\nHe always complains about boredom",
+		"position": {
+			"x": 693,
+			"y": -151
+		},
+		"colorID": 0
+	},
+	{
+		"title": "11",
+		"tags": "",
+		"body": "The Toster is very nice kitchenware, but he's very stubborn\nand \"but\" it is the worst word you can use when talking to him\n<<close DialoguePopup 1>>",
+		"position": {
+			"x": 346,
+			"y": 387
+		},
+		"colorID": 0
+	},
+	{
+		"title": "12",
+		"tags": "",
+		"body": "The key is hidden underneath the automobile's familiar\nSearch for it yourself! Be gone!\n<<close DialoguePopup 1>>",
+		"position": {
+			"x": 1010,
+			"y": 384
 		},
 		"colorID": 0
 	}

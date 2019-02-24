@@ -14,6 +14,7 @@ namespace MOP.View
         public AudioClip shock2;
 
         public AudioClip fanfare;
+        public AudioClip dead;
 
         public void GoIntense()
         {
@@ -40,6 +41,11 @@ namespace MOP.View
         }
 
         public void ShockSound()
+        {
+            audioSource.PlayOneShot(shock2, 15f);
+        }
+
+        public void PlayDead()
         {
             audioSource.PlayOneShot(shock2, 15f);
         }

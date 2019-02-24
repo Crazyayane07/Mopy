@@ -25,8 +25,7 @@ namespace MOP.View
         }
 
         private void StartGame()
-        {
-            
+        {           
             gameWallpaper.SetActive(false);
             StartDialogue();
         }
