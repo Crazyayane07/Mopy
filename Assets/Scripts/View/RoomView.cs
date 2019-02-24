@@ -15,6 +15,7 @@ namespace MOP.View
         public DialoguePopup popup;
         public EventPopup eventPopup;
         public CharacterView character;
+        public Image background;
 
         public bool needBag;
         
@@ -22,6 +23,7 @@ namespace MOP.View
         {
             SetUpTrigger();
             SetUpButton();
+            Active(false);
         }
 
         private void SetUpButton()
@@ -61,11 +63,21 @@ namespace MOP.View
         private void StopOutline()
         {
             eventPopup.HidePopup();
+            Active(false);
            // animator.SetTrigger("StopOutline");
+        }
+
+        private void Active(bool setActive)
+        {
+            var tempColor = background.color;
+            tempColor.a = setActive ? 0.8f : 0.2f;
+            background.color = tempColor;
         }
 
         private void StartOutline()
         {
+            Active(true);
+
             if (needBag && !GameStateService.HaveBag())
             {
                 eventPopup.ShowPopup("You need a bag to go to this room");

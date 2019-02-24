@@ -1,6 +1,6 @@
 [
 	{
-		"title": "Start",
+		"title": "Book",
 		"tags": "",
 		"body": "Welcome in our bookcase\nWhat are you doing here?\n[[We're trying to escape from here|1]]\n[[we are looking for those who would like to join us|2]]",
 		"position": {
@@ -22,7 +22,7 @@
 	{
 		"title": "2",
 		"tags": "",
-		"body": "In the living room you will surely find a flip-flop\r\nShe loves meeting new people\r\nHair Dryer may also be interested\r\nHe always complains about boredom",
+		"body": "In the living room you will surely find a flip-flop\r\nShe loves meeting new people\r\nHair Dryer may also be interested\r\nHe always complains about boredom\r\n<<close DialoguePopup 1>>",
 		"position": {
 			"x": 693,
 			"y": -151

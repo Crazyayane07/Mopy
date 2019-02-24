@@ -47,7 +47,7 @@ namespace MOP.View
 
         public void PlayDead()
         {
-            audioSource.PlayOneShot(shock2, 15f);
+            audioSource.PlayOneShot(dead, 15f);
         }
     }
 }
