@@ -12,6 +12,8 @@ namespace MOP.View
         {
             if (Constans.epilogueId == 1)
                 Sound.PlayDead();
+            else
+                Sound.GoChill();
 
             mainEpilogueImage.sprite = epilogues[Constans.epilogueId];
         }

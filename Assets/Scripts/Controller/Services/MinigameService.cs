@@ -1,6 +1,5 @@
-﻿using UnityEngine;
-using UnityEditor;
-using System;
+﻿using System;
+using UnityEngine.SceneManagement;
 
 namespace MOP.Controller.Services
 {
@@ -29,6 +28,8 @@ namespace MOP.Controller.Services
         public void MinigameWon()
         {
             OnMinigameWon?.Invoke();
+            Constans.epilogueId = 0;
+            SceneManager.LoadScene(2);
             //load ending
         }
     }

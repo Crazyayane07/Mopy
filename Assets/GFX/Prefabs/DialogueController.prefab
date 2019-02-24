@@ -86,7 +86,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 0}
-  textSpeed: 0.025
+  textSpeed: 0.035
   optionsTexts:
   - {fileID: 0}
   - {fileID: 0}

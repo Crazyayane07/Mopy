@@ -190,7 +190,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1bd90a3b296353346a8db88b18497038, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f06c9158dac858249ae61a1a32a727df, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.1
   m_Pitch: 1
@@ -289,8 +289,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 133652707}
-  chill: {fileID: 8300000, guid: 1bd90a3b296353346a8db88b18497038, type: 3}
-  intense: {fileID: 8300000, guid: a22efabd3f16f0546bfef974563a151c, type: 3}
+  chill: {fileID: 8300000, guid: f06c9158dac858249ae61a1a32a727df, type: 3}
+  intense: {fileID: 8300000, guid: 66c83ab915c6c084196e78c329525b11, type: 3}
   shock1: {fileID: 8300000, guid: 243d07077572da141a8a6c1c985504a0, type: 3}
   shock2: {fileID: 8300000, guid: 94b554feef69942408d6bf06d2a3ec49, type: 3}
   fanfare: {fileID: 8300000, guid: d0a6d929a7aa7394da7b22d9deb63d5c, type: 3}
@@ -1314,7 +1314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1068183276}
-  textSpeed: 0.025
+  textSpeed: 0.015
   dialogueEndStar: {fileID: 543422972}
 --- !u!114 &1388845311
 MonoBehaviour:

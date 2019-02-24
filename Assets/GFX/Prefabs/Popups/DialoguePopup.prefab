@@ -1151,7 +1151,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -1805,6 +1805,7 @@ MonoBehaviour:
   trashName: {fileID: 2660670046003476960}
   characterImage: {fileID: 5671834822414284915}
   close: {fileID: 4179080553554833689}
+  buttonText: {fileID: 3372288742067878665}
   textPanel: {fileID: 8710424936541259711}
   controller: {fileID: 0}
   inventory: {fileID: 0}
