@@ -17,3 +17,4 @@ MonoBehaviour:
   - {fileID: 21300000, guid: e2f89412e44b47b41a883294f4530671, type: 3}
   - {fileID: 21300000, guid: 6d5d39b8c62d1ea44a53eaf75399ca6b, type: 3}
   - {fileID: 21300000, guid: 47b2c94e10a7c524ba458e3faad13862, type: 3}
+  dailogueBackground: {fileID: 21300000, guid: 23c44c943ffaedf47bc683d6553eed7c, type: 3}

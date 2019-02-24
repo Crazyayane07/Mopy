@@ -21,7 +21,7 @@ namespace MOP.View
         private void SetUpImageAlpha()
         {
             var tempColor = image.color;
-            tempColor.a = GameStateService.HaveTrash(trash.nodeId) ? 1f : 0.5f;
+            tempColor.a = GameStateService.HaveTrash(trash.nodeId) ? 1f : 0.2f;
             image.color = tempColor;
         }
 

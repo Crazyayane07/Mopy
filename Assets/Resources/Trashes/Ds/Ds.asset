@@ -15,3 +15,4 @@ MonoBehaviour:
   nodeId: Ds
   sprite:
   - {fileID: 21300000, guid: 050a9fb76d4a6954e9e8a6a61bc2dc95, type: 3}
+  dailogueBackground: {fileID: 21300000, guid: aa18b1267f3d4c240a027f9f738ea345, type: 3}

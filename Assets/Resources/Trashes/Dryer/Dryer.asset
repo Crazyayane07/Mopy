@@ -16,3 +16,4 @@ MonoBehaviour:
   sprite:
   - {fileID: 21300000, guid: b53c6dce9d2d3094083fb1de92059319, type: 3}
   - {fileID: 21300000, guid: 1c84b4ea8645d8742883d7c46509d614, type: 3}
+  dailogueBackground: {fileID: 21300000, guid: fe58d9575c47a7e47bba61d41d148151, type: 3}

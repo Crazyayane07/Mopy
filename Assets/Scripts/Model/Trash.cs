@@ -7,5 +7,6 @@ namespace MOP.Model
     {
         public string nodeId;
         public Sprite[] sprite;
+        public Sprite dailogueBackground;
     }
 }

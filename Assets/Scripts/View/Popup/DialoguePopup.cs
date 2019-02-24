@@ -16,6 +16,7 @@ namespace MOP.View.Popup
         public TextMeshProUGUI buttonText;
         public GameObject textPanel;
         public MinigameController controller;
+        public Image dailogueBackground;
 
         public InventoryView inventory;
 
@@ -91,6 +92,7 @@ namespace MOP.View.Popup
         private void SetUpImage()
         {
             characterImage.sprite = trash.sprite[0];
+            dailogueBackground.sprite = trash.dailogueBackground;
         }
 
         private void SetText()

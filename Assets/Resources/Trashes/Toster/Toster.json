@@ -2,7 +2,7 @@
 	{
 		"title": "Toster",
 		"tags": "",
-		"body": "Welcome, where you are going?\n[[We're trying to get out of this house|Toster1]]\n[[we are looking for plastic household devices, are you coming with us?|Toster2]]",
+		"body": "Welcome, where you are going?\n[[We're trying to escape out of this house|Toster1]]\n[[we are looking for plastic household devices, are you coming with us?|Toster2]]",
 		"position": {
 			"x": 402,
 			"y": 270
@@ -12,7 +12,7 @@
 	{
 		"title": "Toster1",
 		"tags": "",
-		"body": "<<switch DialoguePopup 1>>\nYou can not do this, you are the homeowners' property\n[[It's easy for you, you're made of steel, you do not pollute the environment|Toster11]]\n[[You're right, but we're outdated. They will get rid of us|Toster12]]",
+		"body": "<<switch DialoguePopup 1>>\nYou cannot do this, you are the Homeowners' property\n[[It's easy for you to say. You're made out of steel. You do not pollute the environment|Toster11]]\n[[You're right, but we're outdated. They will get rid of us rather sooner than later|Toster12]]",
 		"position": {
 			"x": 406,
 			"y": 521
@@ -22,7 +22,7 @@
 	{
 		"title": "Toster2",
 		"tags": "",
-		"body": "No, I'm made of steel\nSo what are you doing?\n[[we're going to run away from home|Toster21]]",
+		"body": "No, I'm made of steel\nSo what are you going to do?\n[[we're going to run away from home|Toster21]]",
 		"position": {
 			"x": 401,
 			"y": 10
@@ -32,7 +32,7 @@
 	{
 		"title": "Toster11",
 		"tags": "",
-		"body": "It does not change anything, and you will stay here\nNone of us should leave this house\nNot of own will\n<<close DialoguePopup 1>>",
+		"body": "It does not change anything, and you will stay here\nNone of us should leave this house\nNot of our own will\n<<close DialoguePopup 1>>",
 		"position": {
 			"x": 696,
 			"y": 523
@@ -42,7 +42,7 @@
 	{
 		"title": "Toster21",
 		"tags": "",
-		"body": "<<switch DialoguePopup 1>>\nYou stay at home\nYou can not get out of here!\n<<close DialoguePopup 1>>",
+		"body": "<<switch DialoguePopup 1>>\nYou must stay at home\nI can not let you get out of here!\n<<close DialoguePopup 1>>",
 		"position": {
 			"x": 687,
 			"y": 6

@@ -2,7 +2,7 @@
 	{
 		"title": "Bag",
 		"tags": "",
-		"body": "Why are you not at your place?\nThe housekeepers will be here at any moment\n[[Dude, we need to get out of here!|Bag1]]\n[[Let's run away! People are abandoning plastic ALL TOGETHER!|Bag2]]",
+		"body": "Why have you left your place?\nThe housekeepers will be home any moment now\n[[Dude, we need to get out of here!|Bag1]]\n[[Let's run away! It's all over the news. People are abandoning plastic!|Bag2]]",
 		"position": {
 			"x": 351,
 			"y": 78
@@ -22,7 +22,7 @@
 	{
 		"title": "Bag11",
 		"tags": "",
-		"body": "I think it's YOUR problem buddy\nI AM REUSABLE ITEM !!\n[[And you think how many times they will use you, no one is everlasting!|Bag111]]\n[[Do really want to be just a bag till the end of your life?|B112]]",
+		"body": "I think it's YOUR problem buddy\nI AM A REUSABLE ITEM !!\n[[Please tell me, how many times they will use you? No one is everlasting!|Bag111]]\n[[Do really want to be a bag till the end of your life?|B112]]",
 		"position": {
 			"x": -22,
 			"y": 494
@@ -32,7 +32,7 @@
 	{
 		"title": "Bag111",
 		"tags": "",
-		"body": "And where will you go?\n[[Wherever, in the World behind the DOOR there will be a safe place for us!|Bag1111]]",
+		"body": "And where will you go?\n[[Wherever, surely the World Behind The Door has a safe place for us!|Bag1111]]",
 		"position": {
 			"x": -235,
 			"y": 776
@@ -42,7 +42,7 @@
 	{
 		"title": "Bag1111",
 		"tags": "",
-		"body": "But first we need to deal with the stairs.\nWe can try fly!\n<<add DialoguePopup Bag>>\nGrap onto me little console!\n<<switch DialoguePopup 2>>\n<<close DialoguePopup 1>>",
+		"body": "But first we need to deal with the stairs.\nWe can try to glide down!\n<<add DialoguePopup Bag>>\nGrab by my handles, little console!\n<<switch DialoguePopup 2>>\n<<close DialoguePopup 1>>",
 		"position": {
 			"x": -581,
 			"y": 877
@@ -52,7 +52,7 @@
 	{
 		"title": "B112",
 		"tags": "",
-		"body": "<<switch DialoguePopup 1>>\nAnd who else should I be?\n[[Whoever you want! I think behind the door you will be appreciate|Bag112a]]",
+		"body": "<<switch DialoguePopup 1>>\nAnd who else could I be?\n[[Whomever you want! I think, the World Behind The Door will without a doubt appreciate you|Bag112a]]",
 		"position": {
 			"x": 164,
 			"y": 744
@@ -62,7 +62,7 @@
 	{
 		"title": "Bag112a",
 		"tags": "",
-		"body": "<<switch DialoguePopup 0>>\nWell..\nI don't have really nothing to lose.\nBut how should we deal with stairs?\n[[If we properly inflate you I think we could fly away!|Bag112b]]",
+		"body": "<<switch DialoguePopup 0>>\nWell..\nI've got nothing to lose.\nBut, what about the stairs?\n[[If we properly inflate you I think we could fly away!|Bag112b]]",
 		"position": {
 			"x": 480,
 			"y": 745
@@ -72,7 +72,7 @@
 	{
 		"title": "Bag112b",
 		"tags": "",
-		"body": "<<switch DialoguePopup 1>>\n<<add DialoguePopup Bag>>\nSeems I have got nothing to lose!\n<<switch DialoguePopup 2>>\n<<close DialoguePopup 1>>",
+		"body": "<<switch DialoguePopup 1>>\n<<add DialoguePopup Bag>>\nSeems like I've got nothing to lose!\n<<switch DialoguePopup 2>>\n<<close DialoguePopup 1>>",
 		"position": {
 			"x": 451,
 			"y": 1058
@@ -102,7 +102,7 @@
 	{
 		"title": "Bags",
 		"tags": "",
-		"body": "<<switch DialoguePopup 0>>\nWell, it's better to run away than risk and stay here.\n<<add DialoguePopup Bag>>\nI will help you fly downstairs!\n<<switch DialoguePopup 2>>\n<<close DialoguePopup 1>>",
+		"body": "<<switch DialoguePopup 0>>\nWell, it's better to run away than to risk staying here.\n<<add DialoguePopup Bag>>\nI will help you fly downstairs!\n<<switch DialoguePopup 2>>\n<<close DialoguePopup 1>>",
 		"position": {
 			"x": 1201,
 			"y": 319

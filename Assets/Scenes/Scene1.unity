@@ -3154,7 +3154,8 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 0.59607846
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 88094447223484109, guid: dbc6dd2fa8738ee40958310dfa70f428, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dbc6dd2fa8738ee40958310dfa70f428, type: 3}
 --- !u!114 &3808847180474309057 stripped
 MonoBehaviour:
@@ -3456,15 +3457,35 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5257987761603371658, guid: 07bb252e57019864dbbac75e56471e79,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0.7490196
+      objectReference: {fileID: 0}
     - target: {fileID: 5257987760678714353, guid: 07bb252e57019864dbbac75e56471e79,
         type: 3}
       propertyPath: m_PreferredWidth
       value: 150
       objectReference: {fileID: 0}
+    - target: {fileID: 5257987760678714255, guid: 07bb252e57019864dbbac75e56471e79,
+        type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5257987760986213345, guid: 07bb252e57019864dbbac75e56471e79,
+        type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5257987760986213347, guid: 07bb252e57019864dbbac75e56471e79,
         type: 3}
       propertyPath: m_PreferredWidth
       value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 5257987761374648862, guid: 07bb252e57019864dbbac75e56471e79,
+        type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5257987761374648832, guid: 07bb252e57019864dbbac75e56471e79,
         type: 3}
@@ -3475,6 +3496,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PreferredWidth
       value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 5257987761484549234, guid: 07bb252e57019864dbbac75e56471e79,
+        type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07bb252e57019864dbbac75e56471e79, type: 3}
