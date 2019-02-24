@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace MOP.Controller.Services
 {
@@ -13,9 +14,11 @@ namespace MOP.Controller.Services
     public class GameStateService : IGameStateService
     {
         private Dictionary<string, bool> trashes;
+        private TextAsset[] textAssets;
 
         public GameStateService()
         {
+            LoadTextAssets();
             trashes = new Dictionary<string, bool>
             {
                 { "Bag", false },
@@ -26,7 +29,12 @@ namespace MOP.Controller.Services
                 { "Ds", true }
             };
         }
-               
+
+        private void LoadTextAssets()
+        {
+            textAssets = Resources.Load<TextResources>("texts").textAssets;
+        }
+
         public void AddTrash(string trash)
         {
             trashes[trash] = true;

@@ -1,7 +1,8 @@
-﻿using MOP.Model;
+﻿using System;
+using MOP.Controller.Dialogues;
+using MOP.Model;
 using TMPro;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using Yarn.Unity;
 
@@ -13,7 +14,6 @@ namespace MOP.View.Popup
         public TextMeshProUGUI trashName;
         public Image characterImage;
         public Button close;
-        public TextMeshProUGUI buttonText;
         public GameObject textPanel;
         public MinigameController controller;
 
@@ -45,10 +45,8 @@ namespace MOP.View.Popup
             SetActive(false);
             inventory.SetUp();
 
-            if (trash.nodeId == "Toster")
-            {
+            if(trash.nodeId == "Toster")
                 controller.SetUpMinigame();
-            }
         }
 
         [YarnCommand("close")]
@@ -56,11 +54,7 @@ namespace MOP.View.Popup
         {
             textPanel.SetActive(false);
             close.gameObject.SetActive(true);
-
-            if (trash.nodeId == "Toster")
-            {
-                buttonText.text = "RUN TO THE WINDOW!!!";
-            }
+            
         }
 
         [YarnCommand("switch")]
@@ -73,13 +67,6 @@ namespace MOP.View.Popup
         public void Add(string name)
         {
             GameStateService.AddTrash(name);
-        }
-
-        [YarnCommand("anger")]
-        public void OmeaWoMouShideiru(string text)
-        {
-            Constans.epilogueId = 1;
-            SceneManager.LoadScene(2);
         }
 
         private void StartDialogue()

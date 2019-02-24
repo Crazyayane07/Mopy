@@ -1348,8 +1348,8 @@ MonoBehaviour:
   overrideLanguage: 10
   variableStorage: {fileID: 1388845311}
   dialogueUI: {fileID: 1388845310}
-  startNode: Prologue
-  startAutomatically: 1
+  startNode: 
+  startAutomatically: 0
   automaticCommands: 1
 --- !u!1 &1702380587
 GameObject:
