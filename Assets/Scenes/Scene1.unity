@@ -681,22 +681,22 @@ PrefabInstance:
     - target: {fileID: 7465851935214158407, guid: c2ef0d2545111f842a4a7e32ab13ff25,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -9.300003
+      value: -7.2
       objectReference: {fileID: 0}
     - target: {fileID: 7465851935214158407, guid: c2ef0d2545111f842a4a7e32ab13ff25,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2.300003
+      value: 7.99
       objectReference: {fileID: 0}
     - target: {fileID: 7465851935214158407, guid: c2ef0d2545111f842a4a7e32ab13ff25,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 92.7
+      value: 6.99
       objectReference: {fileID: 0}
     - target: {fileID: 7465851935214158407, guid: c2ef0d2545111f842a4a7e32ab13ff25,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: -51.1
+      value: -62.49
       objectReference: {fileID: 0}
     - target: {fileID: 7465851935214158406, guid: c2ef0d2545111f842a4a7e32ab13ff25,
         type: 3}
@@ -727,6 +727,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_isInputParsingRequired
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_text
+      value: You need a bag to go to this room
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 13.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8835390743653852125, guid: c2ef0d2545111f842a4a7e32ab13ff25,
         type: 3}
@@ -965,22 +1000,22 @@ PrefabInstance:
     - target: {fileID: 7465851935214158407, guid: c2ef0d2545111f842a4a7e32ab13ff25,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -9.300003
+      value: 23.1
       objectReference: {fileID: 0}
     - target: {fileID: 7465851935214158407, guid: c2ef0d2545111f842a4a7e32ab13ff25,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2.300003
+      value: 9.59
       objectReference: {fileID: 0}
     - target: {fileID: 7465851935214158407, guid: c2ef0d2545111f842a4a7e32ab13ff25,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 92.7
+      value: 27.9
       objectReference: {fileID: 0}
     - target: {fileID: 7465851935214158407, guid: c2ef0d2545111f842a4a7e32ab13ff25,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: -51.1
+      value: -36.52
       objectReference: {fileID: 0}
     - target: {fileID: 7465851935214158406, guid: c2ef0d2545111f842a4a7e32ab13ff25,
         type: 3}
@@ -1011,6 +1046,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_isInputParsingRequired
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_text
+      value: You need a bag to go to this room
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 14.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8835390743653852125, guid: c2ef0d2545111f842a4a7e32ab13ff25,
         type: 3}
@@ -1429,7 +1499,7 @@ PrefabInstance:
     - target: {fileID: 7465851935214158407, guid: c2ef0d2545111f842a4a7e32ab13ff25,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2.3
+      value: 9.17
       objectReference: {fileID: 0}
     - target: {fileID: 7465851935214158407, guid: c2ef0d2545111f842a4a7e32ab13ff25,
         type: 3}
@@ -1439,7 +1509,7 @@ PrefabInstance:
     - target: {fileID: 7465851935214158407, guid: c2ef0d2545111f842a4a7e32ab13ff25,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: -51.1
+      value: -37.36
       objectReference: {fileID: 0}
     - target: {fileID: 7465851935214158406, guid: c2ef0d2545111f842a4a7e32ab13ff25,
         type: 3}
@@ -1470,6 +1540,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_isInputParsingRequired
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_text
+      value: You need a bag to go to this room
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8835390743653852125, guid: c2ef0d2545111f842a4a7e32ab13ff25,
         type: 3}
@@ -1991,7 +2096,7 @@ PrefabInstance:
     - target: {fileID: 7465851935214158407, guid: c2ef0d2545111f842a4a7e32ab13ff25,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -9.300003
+      value: -25.72
       objectReference: {fileID: 0}
     - target: {fileID: 7465851935214158407, guid: c2ef0d2545111f842a4a7e32ab13ff25,
         type: 3}
@@ -2001,7 +2106,7 @@ PrefabInstance:
     - target: {fileID: 7465851935214158407, guid: c2ef0d2545111f842a4a7e32ab13ff25,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 92.7
+      value: 59.87
       objectReference: {fileID: 0}
     - target: {fileID: 7465851935214158407, guid: c2ef0d2545111f842a4a7e32ab13ff25,
         type: 3}
@@ -2037,6 +2142,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_isInputParsingRequired
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_text
+      value: You need a bag to go to this room
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8835390743653852125, guid: c2ef0d2545111f842a4a7e32ab13ff25,
         type: 3}
@@ -2619,12 +2759,12 @@ PrefabInstance:
     - target: {fileID: 7465851935214158407, guid: c2ef0d2545111f842a4a7e32ab13ff25,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -9.3
+      value: -34.3
       objectReference: {fileID: 0}
     - target: {fileID: 7465851935214158407, guid: c2ef0d2545111f842a4a7e32ab13ff25,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 92.7
+      value: -104.86
       objectReference: {fileID: 0}
     - target: {fileID: 7465851935214158406, guid: c2ef0d2545111f842a4a7e32ab13ff25,
         type: 3}
@@ -2659,7 +2799,7 @@ PrefabInstance:
     - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
         type: 3}
       propertyPath: m_fontSize
-      value: 36
+      value: 13.5
       objectReference: {fileID: 0}
     - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
         type: 3}
@@ -2670,6 +2810,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_havePropertiesChanged
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_text
+      value: You need a bag to go to this room
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465851935539206852, guid: c2ef0d2545111f842a4a7e32ab13ff25,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8835390743653852125, guid: c2ef0d2545111f842a4a7e32ab13ff25,
         type: 3}

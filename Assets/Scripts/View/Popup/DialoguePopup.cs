@@ -28,8 +28,8 @@ namespace MOP.View.Popup
             SetText();
             SetUpImage();
 
-            SetActive(true);            
-            StartDialogue();            
+            SetActive(true);
+            StartDialogue();
         }
 
         private void SetUpButton()
@@ -44,7 +44,7 @@ namespace MOP.View.Popup
             SetActive(false);
             inventory.SetUp();
 
-            if(trash.nodeId == "Toster")
+            if (trash.nodeId == "Toster")
                 controller.SetUpMinigame();
         }
 
@@ -55,7 +55,7 @@ namespace MOP.View.Popup
                 buttonText.text = "RUN TO THE WINDOW!";
             textPanel.SetActive(false);
             close.gameObject.SetActive(true);
-            
+
         }
 
         [YarnCommand("switch")]
@@ -68,6 +68,13 @@ namespace MOP.View.Popup
         public void Add(string name)
         {
             GameStateService.AddTrash(name);
+        }
+
+        [YarnCommand("anger")]
+        public void Anger(string text)
+        {
+            Constans.epilogueId = 1;
+            SceneService.LoadScene(2);
         }
 
         private void StartDialogue()
