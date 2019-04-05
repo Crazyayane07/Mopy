@@ -41,8 +41,7 @@ namespace MOP.Controller.Dialogues
         public float textSpeed = 0.025f;
 
         public GameObject dialogueEndStar;
-
-
+        
         public override IEnumerator RunCommand(Command command)
         {
             yield break;

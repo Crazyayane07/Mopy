@@ -1,0 +1,62 @@
+[
+	{
+		"title": "Book",
+		"tags": "",
+		"body": "Hello HUM4N\nsdhiaksjdpOSJDPOASJ\n[[Opcja a?|OpcjaA]]\n[[A moze b?|OpcjaB]]",
+		"position": {
+			"x": 557,
+			"y": 145
+		},
+		"colorID": 0
+	},
+	{
+		"title": "OpcjaA",
+		"tags": "",
+		"body": "AAAAAAAAAAA",
+		"position": {
+			"x": 882,
+			"y": 400
+		},
+		"colorID": 0
+	},
+	{
+		"title": "OpcjaB",
+		"tags": "",
+		"body": "BBBBBbbbBBBBbbb\n[[aha?|a]]\n[[bebe?|b]]\n[[ccccc!!!!|c]]",
+		"position": {
+			"x": 243,
+			"y": 400
+		},
+		"colorID": 0
+	},
+	{
+		"title": "a",
+		"tags": "",
+		"body": "<<close DialoguePopup a>>\nkarp",
+		"position": {
+			"x": -9,
+			"y": 765
+		},
+		"colorID": 0
+	},
+	{
+		"title": "b",
+		"tags": "",
+		"body": "Be behy",
+		"position": {
+			"x": 255,
+			"y": 755
+		},
+		"colorID": 0
+	},
+	{
+		"title": "c",
+		"tags": "",
+		"body": "Celina",
+		"position": {
+			"x": 508,
+			"y": 768
+		},
+		"colorID": 0
+	}
+]
